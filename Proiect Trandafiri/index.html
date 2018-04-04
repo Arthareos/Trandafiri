@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+    <title>Trandafiri</title>
+    <link rel="stylesheet" type="text/css" href="./style/index.css">
+    <link rel="icon" href="icon.png">
+    <script>
+        function go(loc) {
+            document.getElementById('iframe-container').src = loc;
+        }
+    </script>
+</head>
+<body>
+    <div id="nav">
+        <a id="main" onclick="go('main.html')"><img height="32" width="32"></a>
+        <div id="oriz-spacer"></div>
+        <a id="specii" onclick="go('specii.html')"><img height="32" width="32"></a>
+        <div id="oriz-spacer"></div>
+        <a id="contact" onclick="go('contact.html')"><img height="32" width="32"></a>
+        <div id="oriz-spacer"></div>
+    </div>
+    <iframe id="iframe-container" src="main.html"></iframe>
+</body>
+</html>

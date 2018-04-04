@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<head>
+    <title>Trandafiri</title>
+    <link rel="stylesheet" type="text/css" href="./style/specii.css">
+</head>
+<body>
+    <div id="main">
+        <div id="main_data">
+            <h1>Speciile de Trandafiri</h1>
+            <p style="padding-bottom: 16px;">
+                Genul Rosa este împărțit în patru subgeneri:
+            </p>
+            <ul id="lista-specii">
+                <li>
+                    <p>1. <b>Hulthemia</b>, care contine 2 specii din Asia centrala;</p>
+                </li>
+                <li>
+                    <p>2. <b>Hesperrhodos</b>, care contine 2 specii din America de nord;</p>
+                </li>
+                <li>
+                    <p>3. <b>Platyrhodon</b>, care contine <i>"Rosa roxburghii"</i> din Asia de est;</p>
+                </li>
+                <li>
+                    <p>4. <b>Rosa</b>, care contine restul speciilor de trandafiri;</p>
+                </li>
+            </ul>
+        </div>
+        <div id="tabel">
+            <div id="checkbox">
+                <input id="all" onload="filterSelection('all')" onclick="filterSelection('all')" type="radio" name="category" checked/>
+                <label for="all">Toate</label>
+                <input id="hult" onclick="filterSelection('hult')" type="radio" name="category"/>
+                <label for="hult">Hulthemia</label>
+                <input id="hesp" onclick="filterSelection('hesp')" type="radio" name="category"/>
+                <label for="hesp">Hesperrhodos</label>
+                <input id="plat" onclick="filterSelection('plat')" type="radio" name="category"/>
+                <label for="plat">Platyrhodon</label>
+                <input id="rosa" onclick="filterSelection('rosa')" type="radio" name="category"/>
+                <label for="rosa">Rosa</label>
+            </div>
+            <div class="container">
+                <div id="one" class="filterDiv all hult">
+                    <div class="title">
+                        <h2>Rosa Persica</h2>
+                    </div>
+                </div>
+                <div id="two" class="filterDiv all hesp">
+                    <div class="title">
+                        <h2>Rosa Minutifolia</h2>
+                    </div>
+                </div>
+                <div id="three" class="filterDiv all plat">
+                    <div class="title">
+                        <h2>Rosa Roxburghii</h2>
+                    </div>
+                </div>
+                <div id="four" class="filterDiv all rosa">
+                    <div class="title">
+                        <h2>Rosa</h2>
+                    </div>
+                </div>
+                <div id="five" class="filterDiv all hesp">
+                    <div class="title">
+                        <h2>Rosa Stellata</h2>
+                    </div>
+                </div>
+                <div id="six" class="filterDiv all rosa">
+                    <div class="title">
+                        <h2>Rosa Cymosa</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="projects.js"></script>
+</body>
+</html>

@@ -1,0 +1,87 @@
+#nav {
+  height: 100%;
+  width: 82px;
+  background-color: #222326;
+  z-index: 98;
+  position: fixed;
+  box-shadow: inset -5px 0px 40px 0px rgba(0, 0, 0, 0.75);
+}
+
+#nav #main {
+  margin: 25px 25px 21px 25px;
+  float: left;
+  box-sizing: border-box;
+}
+
+#nav #main img {
+  content: url("./images/navbar/home-white.png");
+}
+
+#nav #main img:hover {
+  content: url("./images/navbar/home-red.png");
+}
+
+#nav #specii {
+  margin: 25px 25px 21px 25px;
+  float: left;
+  box-sizing: border-box;
+}
+
+#nav #specii img {
+  content: url("./images/navbar/specii-white.png");
+}
+
+#nav #specii img:hover {
+  content: url("./images/navbar/specii-red.png");
+}
+
+#nav #contact {
+  margin: 25px 25px 21px 25px;
+  float: left;
+  box-sizing: border-box;
+}
+
+#nav #contact img {
+  content: url("./images/navbar/contact-white.png");
+}
+
+#nav #contact img:hover {
+  content: url("./images/navbar/contact-red.png");
+}
+
+#nav #oriz-spacer {
+  width: 58px;
+  height: 1px;
+  background-color: #808080;
+  margin: 0px;
+  padding: 0px;
+  margin-left: 12px;
+  margin-right: 12px;
+  float: left;
+  box-sizing: border-box;
+  opacity: 0.5;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+#iframe-container {
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  position: fixed;
+  overflow-y: scroll;
+  border: 0px;
+  margin-left: 82px;
+}
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+body {
+  z-index: 1;
+  position: relative;
+  margin: 0px;
+}
+
+html {
+  z-index: 0;
+  height: 100%;
+  width: 100%;
+}
